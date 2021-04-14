@@ -1,0 +1,19 @@
+mkdir - para crear carpetas
+touch - para crear archivos .html.js.css.md
+pwd - para ver donde estamos
+cd - para ir a una carpeta
+clear - borrar
+cd .. - para salir
+ls - para listar
+ls -a - archivos ocultos
+ls -r - lista todo con sus permisos
+rm -r - borrar todo, hasta un archivo
+rmdir - borrar una carperta sin nada
+	
+GIT
+-Para pasar de Working Directory hacea Staging Area ( GET ADD)
+-Para pasar de Statging Area hace Directory GIT ( GIT COMMIT )
+
+CREAR UN USUARIO 
+-git config --global user.name 'Martin Rios'
+-git config --global user.email 'mar_1905@hotmail.es'
