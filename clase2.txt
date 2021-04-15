@@ -11,9 +11,29 @@ rm -r - borrar todo, hasta un archivo
 rmdir - borrar una carperta sin nada
 	
 GIT
--Para pasar de Working Directory hacea Staging Area ( GET ADD)
+-Para pasar de Working Directory hacea Staging Area ( GIT ADD)
 -Para pasar de Statging Area hace Directory GIT ( GIT COMMIT )
 
 CREAR UN USUARIO 
 -git config --global user.name 'Martin Rios'
 -git config --global user.email 'mar_1905@hotmail.es'
+
+--git init - para dar seguimiento a una carpeta (carpeta 2)
+--git init a la carpeta 2
+
+--git status -- para el estado de mi proyecto
+
+--Para pasar de Working Directory hacea Staging Area ( git add .)
+--Para pasar de Statging Area hace Directory GIT  ( git commit -m 'First Commit')
+
+--Para que Git IGNORE una carpeta y no la guarde se crear una nueva carpeta llamada
+  (.gitignore), y se pone el nombre de los archivos para que los ignores y si esta 
+  en una carpeta se pone el /css
+
+-- para ver las ramas (git branch)
+-- para crear una rama (git branch diego-branch)
+-- pasarse a otra rama (git checkout diego-branch) 
+-- para pasar lo de una rama al master (git ranger diego-branch)
+-- Eliminar una rama (git branch -D diego-branch)
+-- Regresar al pasado (git checkout primercommit) poner el nombre del commit
+-- Volver al presente (git checkout master) poner el nombre de la rama
